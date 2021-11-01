@@ -10,6 +10,7 @@ import { ContactComponent } from './main/contact/contact.component';
 import { ServicesComponent } from './main/services/services.component';
 import { TeamComponent } from './main/team/team.component';
 import { HomeComponent } from './home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

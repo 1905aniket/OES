@@ -1,0 +1,57 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .about .content h3 {
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 24px;
+  }
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .about .content ul li {
+    padding: 10px 0 0 28px;
+    position: relative;
+  }
+  .about .content ul i {
+    left: 0;
+    top: 7px;
+    position: absolute;
+    font-size: 20px;
+    color: #d9232d;
+  }
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /*--------------------------------------------------------------
+  # Clients
+  --------------------------------------------------------------*/
+  .clients {
+    padding: 15px 0;
+    text-align: center;
+  }
+  .clients img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+  }
+  .clients img:hover {
+    filter: none;
+    transform: scale(1.15);
+  }
+  @media (max-width: 768px) {
+    .clients img {
+      max-width: 40%;
+    }
+  }
